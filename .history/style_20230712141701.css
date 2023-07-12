@@ -35,14 +35,9 @@ nav {
 
 .navbar h1 {
   font-size: 30px;
-  font-weight: 700;
 }
 
 .navbar ul {
   display: flex;
   gap: 3rem;
-}
-
-.navbar ul li {
-  font-weight: 500;
 }

@@ -42,7 +42,3 @@ nav {
   display: flex;
   gap: 3rem;
 }
-
-.navbar ul li {
-  font-weight: 500;
-}
