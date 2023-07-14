@@ -19,13 +19,11 @@ li {
 .container {
   width: 89%;
   margin: auto;
-  max-width: 1044px;
+  max-width: 1500px;
 }
 
-/* NAVBAR STYLING */
-
 nav {
-  background: #e8ceb1;
+  background: #f0dfcb;
   padding: 20px 0;
 }
 
@@ -42,7 +40,6 @@ nav {
 
 .navbar ul {
   display: flex;
-  align-items: center;
   gap: 3rem;
 }
 
@@ -50,34 +47,20 @@ nav {
   font-weight: 500;
 }
 
-.navbar-button {
-  background-color: #ef4444;
-  padding: 7px 7px;
-  border-radius: 5px;
-  color: white;
-  border: none;
-}
-
 /* HERO STYLES */
 
 .hero {
-  background-color: #e8ceb1;
+  background-color: #f0dfcb;
 }
 
 .hero-container {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.hero-image-container {
-  display: flex;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
 .hero-container img {
   height: 550px;
   position: relative;
+  mask-size: auto;
 }

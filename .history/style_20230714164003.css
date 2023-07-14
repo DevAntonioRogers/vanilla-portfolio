@@ -25,7 +25,7 @@ li {
 /* NAVBAR STYLING */
 
 nav {
-  background: #e8ceb1;
+  background: #f0dfcb;
   padding: 20px 0;
 }
 
@@ -42,7 +42,6 @@ nav {
 
 .navbar ul {
   display: flex;
-  align-items: center;
   gap: 3rem;
 }
 
@@ -50,18 +49,10 @@ nav {
   font-weight: 500;
 }
 
-.navbar-button {
-  background-color: #ef4444;
-  padding: 7px 7px;
-  border-radius: 5px;
-  color: white;
-  border: none;
-}
-
 /* HERO STYLES */
 
 .hero {
-  background-color: #e8ceb1;
+  background-color: #f0dfcb;
 }
 
 .hero-container {
@@ -73,7 +64,7 @@ nav {
 
 .hero-image-container {
   display: flex;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
 }
 
