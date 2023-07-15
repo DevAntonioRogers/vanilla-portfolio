@@ -81,49 +81,6 @@ nav {
   align-items: center;
 }
 
-.hero-info h4 {
-  font-size: 1.12rem;
-  line-height: 1.75rem;
-  color: #6b7280;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-.hero-info h1 {
-  font-size: 3rem;
-  line-height: 1;
-  color: #6b7280;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.hero-info p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-  color: #48494b;
-}
-
-.hero-btn-container {
-  margin-top: 20px;
-  display: flex;
-  gap: 10px;
-}
-.hero-btn-container button:nth-child(1) {
-  background-color: rgb(5, 73, 5);
-  color: white;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 5px;
-}
-
-.hero-btn-container button:nth-child(2) {
-  background-color: transparent;
-  padding: 8px 15px;
-  border-radius: 5px;
-  border: solid 1px rgb(5, 73, 5);
-}
-
 .hero-container img {
   height: 550px;
   position: relative;

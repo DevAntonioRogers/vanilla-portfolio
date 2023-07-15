@@ -104,11 +104,6 @@ nav {
   color: #48494b;
 }
 
-.hero-btn-container {
-  margin-top: 20px;
-  display: flex;
-  gap: 10px;
-}
 .hero-btn-container button:nth-child(1) {
   background-color: rgb(5, 73, 5);
   color: white;
@@ -119,9 +114,6 @@ nav {
 
 .hero-btn-container button:nth-child(2) {
   background-color: transparent;
-  padding: 8px 15px;
-  border-radius: 5px;
-  border: solid 1px rgb(5, 73, 5);
 }
 
 .hero-container img {
