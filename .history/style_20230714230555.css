@@ -28,7 +28,6 @@ ion-icon {
   font-size: 20px;
   color: white;
   border-radius: 50px;
-  margin-bottom: 10px;
 }
 
 /* NAVBAR STYLING */
@@ -180,7 +179,6 @@ nav {
 .skill-box h3 {
   font-weight: 400;
   color: #6b7280;
-  margin-bottom: 5px;
 }
 
 .skill-box p {
