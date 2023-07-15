@@ -24,7 +24,7 @@ li {
 
 ion-icon {
   background-color: rgb(5, 73, 5);
-  padding: 5px;
+  padding: 7px;
   font-size: 20px;
   color: white;
   border-radius: 50px;
@@ -188,4 +188,18 @@ nav {
   line-height: 1.5rem;
   font-weight: 400;
   color: #48494b;
+}
+
+/* PROJECT STYLES */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+}
+.project {
+  background-color: rgba(112, 128, 144, 0.067);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.project img {
+  width: 500px;
 }
