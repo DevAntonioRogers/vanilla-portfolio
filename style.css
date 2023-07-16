@@ -199,6 +199,7 @@ nav {
 .project {
   background-color: rgba(112, 128, 144, 0.067);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
   padding: 5px;
   cursor: pointer;
   position: relative;
@@ -252,4 +253,60 @@ nav {
 
 .project img {
   width: 500px;
+}
+
+/* CONTACT STYLES */
+
+.contact {
+  padding-top: 5rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.contact-info h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #48494b;
+}
+
+.contact-info h3 {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.contact-info h4 {
+  color: #48494b;
+  font-weight: 700;
+}
+
+.contact-socials {
+  margin-top: 3rem;
+}
+
+.contact-socials h5 {
+  font-size: 1rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.contact-social-links {
+  display: flex;
+  gap: 10px;
 }
