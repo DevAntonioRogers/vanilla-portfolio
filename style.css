@@ -310,3 +310,36 @@ nav {
   display: flex;
   gap: 10px;
 }
+
+hr {
+  height: 0;
+  color: gray;
+  border-top-width: 1px;
+  margin-top: 2.5rem;
+}
+
+/* FORM STYLES */
+
+form {
+  width: 100%;
+}
+
+form input,
+textarea {
+  width: 100%;
+  color: grey;
+  border: 1px solid rgb(211, 211, 211);
+  outline-color: rgb(5, 73, 5);
+  border-radius: 0.25rem;
+  line-height: 1.25;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+form button {
+  background-color: rgb(5, 73, 5);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
