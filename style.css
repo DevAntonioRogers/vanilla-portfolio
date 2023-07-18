@@ -259,6 +259,7 @@ nav {
 
 .contact {
   padding-top: 5rem;
+  width: 100%;
 }
 
 .contact-container {
@@ -316,6 +317,8 @@ hr {
   color: gray;
   border-top-width: 1px;
   margin-top: 2.5rem;
+  width: 89%;
+  margin: 2.5rem auto 0;
 }
 
 /* FORM STYLES */
@@ -342,4 +345,11 @@ form button {
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
+}
+
+/* FOOTER STYLES */
+
+.footer-container {
+  text-align: center;
+  padding: 15px 0;
 }
