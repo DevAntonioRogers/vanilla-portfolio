@@ -9,11 +9,14 @@ hamburger.addEventListener('click', () => {
 
 // STICKY NAV
 const nav = document.querySelector('nav');
+const backToTopButton = document.querySelector('.btt-button')
 function handleScroll() {
   if (window.scrollY > 0) {
     nav.classList.add('sticky-nav');
+    backToTopButton.classList.add('show-btt-button')
   } else {
     nav.classList.remove('sticky-nav');
+    backToTopButton.classList.remove('show-btt-button')
   }
 }
 window.addEventListener('scroll', handleScroll);

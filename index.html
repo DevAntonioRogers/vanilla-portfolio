@@ -20,17 +20,17 @@
             <a href="/" aria-label="Home">Home</a>
           </li>
           <li>
-            <a href="/" aria-label="About Me">About Me</a>
+            <a href="#about" aria-label="About Me">About Me</a>
           </li>
           <li>
-            <a href="/" aria-label="Projects">Projects</a>
+            <a href="#projects" aria-label="Projects">Projects</a>
           </li>
           <li>
-            <a href="/" aria-label="Contact">Contact</a>
+            <a href="#contact" aria-label="Contact">Contact</a>
           </li>
           <li>
             <a href="/resume.pdf" download aria-label="Download Resume">
-              <button class="navbar-button">Resume</button>
+              <button class="navbar-button">Download Resume</button>
             </a>
           </li>
         </ul>
@@ -63,7 +63,7 @@
       </div>
     </section>
     <!-- SKILL SECTION -->
-    <section class="skills">
+    <section class="skills" id="about">
       <div class="container skills-container">
         <div class="skills-heading">
           <h2>What I Do</h2>
@@ -102,14 +102,14 @@
       </div>
     </section>
     <!-- PROJECTS SECTION -->
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="container projects-container">
         <div class="project">
           <div>
             <h3>Weather App</h3>
             <p>Next.js, Tailwind, Prisma</p>
           </div>
-          <div>
+          <div class="project-image-container">
             <img src="./project1-removebg-preview.png" alt="" />
             <button class="project-button">Show Project</button>
           </div>
@@ -120,7 +120,7 @@
             <h3>Calender App</h3>
             <p>HTML5, CSS, TypeScript, Javascript</p>
           </div>
-          <div>
+          <div class="project-image-container">
             <img src="./to-do-web-app-calendar-removebg-preview.png" alt="" />
             <button class="project-button">Show Project</button>
           </div>
@@ -128,10 +128,10 @@
         </div>
         <div class="project">
           <div>
-            <h3>Project 1</h3>
+            <h3>Project 3</h3>
             <p>React, Tailwind, Prisma</p>
           </div>
-          <div>
+          <div class="project-image-container">
             <img src="./project1-removebg-preview.png" alt="" />
             <button class="project-button">Show Project</button>
           </div>
@@ -139,10 +139,10 @@
         </div>
         <div class="project">
           <div>
-            <h3>Project 1</h3>
+            <h3>Project 4</h3>
             <p>React, Tailwind, Prisma</p>
           </div>
-          <div>
+          <div class="project-image-container">
             <img src="./project1-removebg-preview.png" alt="" />
             <button class="project-button">Show Project</button>
           </div>
@@ -150,10 +150,10 @@
         </div>
         <div class="project">
           <div>
-            <h3>Project 1</h3>
+            <h3>Project 5</h3>
             <p>React, Tailwind, Prisma</p>
           </div>
-          <div>
+          <div class="project-image-container">
             <img src="./project1-removebg-preview.png" alt="" />
             <button class="project-button">Show Project</button>
           </div>
@@ -161,10 +161,10 @@
         </div>
         <div class="project">
           <div>
-            <h3>Project 1</h3>
+            <h3>Project 6</h3>
             <p>React, Tailwind, Prisma</p>
           </div>
-          <div>
+          <div class="project-image-container">
             <img src="./project1-removebg-preview.png" alt="" />
             <button class="project-button">Show Project</button>
           </div>
@@ -173,7 +173,7 @@
       </div>
     </section>
     <!-- CONTACT SECTION -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container contact-container">
         <div class="contact-info">
           <h2>Contact Me</h2>
@@ -206,6 +206,12 @@
       </div>
       <hr />
     </section>
+
+    <div class="btt-button">
+      <a href="/">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </a>
+    </div>
 
     <footer>
       <div class="container footer-container">
