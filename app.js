@@ -41,4 +41,24 @@ navLinks.forEach(link => {
 
 
 
+const animateElements = gsap.utils.toArray(".animate");
+
+gsap.from(animateElements, {
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  stagger: 0.2,
+  scrollTrigger: {
+    trigger: animateElements[0],
+    start: "top 80%",
+    end: "bottom 80%",
+    toggleActions: "play none none reset",
+  },
+});
+
+
+
+
+
+
 

@@ -497,3 +497,7 @@ form button {
 .no-scroll {
   overflow: hidden;
 }
+
+.fade-in {
+  opacity: 0;
+}
