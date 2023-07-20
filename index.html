@@ -73,7 +73,7 @@
 
         <div class="skills-boxes animate">
           <div class="skill-box">
-            <ion-icon name="brush-sharp"></ion-icon>
+            <ion-icon name="brush-sharp" aria-hidden="true"></ion-icon>
             <h3>Web Design</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non optio culpa laborum consectetur iusto,
@@ -81,7 +81,7 @@
             </p>
           </div>
           <div class="skill-box">
-            <ion-icon name="phone-portrait-sharp"></ion-icon>
+            <ion-icon name="phone-portrait-sharp" aria-hidden="true"></ion-icon>
             <h3>Mobile Development</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non optio culpa laborum consectetur iusto,
@@ -89,7 +89,7 @@
             </p>
           </div>
           <div class="skill-box">
-            <ion-icon name="pencil-sharp"></ion-icon>
+            <ion-icon name="pencil-sharp" aria-hidden="true"></ion-icon>
             <h3>Content Writing</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non optio culpa laborum consectetur iusto,
@@ -99,6 +99,7 @@
         </div>
       </div>
     </section>
+
     <!-- PROJECTS SECTION -->
     <section class="projects" id="projects">
       <div class="container projects-container animate">
@@ -175,26 +176,30 @@
       <div class="container contact-container animate">
         <div class="contact-info">
           <h2>Contact Me</h2>
-          <p>I am open to discuss your next project, improve your code or help with user experience.</p>
+          <p>I am open to discussing your next project, improving your code, or helping with user experience.</p>
           <h3>Email me at</h3>
-          <h4>hello@yourname.com</h4>
+          <p aria-label="Email Address">hello@yourname.com</p>
           <div class="contact-socials">
-            <h5>Socials</h5>
+            <h4>Socials</h4>
             <div class="contact-social-links">
-              <ion-icon name="logo-facebook"></ion-icon>
-              <ion-icon name="logo-linkedin"></ion-icon>
-              <ion-icon name="logo-twitter"></ion-icon>
-              <ion-icon name="logo-instagram"></ion-icon>
+              <a href="#" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+              <a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a href="#" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
             </div>
           </div>
         </div>
         <div class="contact-form">
           <form>
             <div>
-              <input type="text" placeholder="Your name" id="name" required />
-              <input type="email" name="email" id="email" autocomplete="email" placeholder="Your email" required />
-              <input type="text" name="Subject" autocomplete="address-level2" placeholder="Subject" required />
-              <textarea name="about" id="about" rows="5" placeholder="Write your message...." required></textarea>
+              <label for="name">Your name:</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+              <label for="email">Your email:</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="Your email" required />
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" autocomplete="off" placeholder="Subject" required />
+              <label for="message">Write your message:</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message...." required></textarea>
             </div>
             <div>
               <button type="submit">Submit</button>
@@ -206,14 +211,14 @@
     </section>
 
     <div class="btt-button">
-      <a href="/">
+      <a href="/" aria-label="Back to Top">
         <ion-icon name="arrow-up-outline"></ion-icon>
       </a>
     </div>
 
     <footer>
       <div class="container footer-container">
-        <p>2023 © YourName.com All rights reserved.</p>
+        <p>&copy; 2023 YourName.com All rights reserved.</p>
       </div>
     </footer>
     <script src="app.js"></script>
