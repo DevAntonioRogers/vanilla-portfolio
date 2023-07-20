@@ -40,6 +40,7 @@ ion-icon {
 nav {
   background: #feefde;
   padding: 20px 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar {
@@ -105,6 +106,10 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
+.nav-menu li.active a {
+  border: 2px solid rgb(5, 73, 5);
+}
+
 @media only screen and (max-width: 768px) {
   .hamburger {
     display: block;
@@ -115,6 +120,7 @@ nav {
     top: 4.4rem;
     right: 0;
     width: 100%;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     background-color: #feefde;
@@ -122,6 +128,8 @@ nav {
     left: -100%;
     z-index: 10;
     transition: 0.3s;
+    gap: 5rem;
+    padding-top: 6rem;
   }
 
   .nav-menu.active {
@@ -484,4 +492,8 @@ form button {
 
 .show-btt-button {
   display: block;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
